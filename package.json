@@ -1,0 +1,16 @@
+{
+  "name": "squash-ai-coach",
+  "version": "1.0.0",
+  "description": "A chat-based AI squash coach website powered by Claude.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0"
+  }
+}
